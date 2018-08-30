@@ -1,9 +1,6 @@
 # list of requirements:
 # --get a name, country, a verb and an adjective from the user
 # --insert noun, verb and adjective in order in story
-# --
-#
-# pseudocode:
 
 name = input("What is your name? : ")
 print("Your name is ", name)

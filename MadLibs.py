@@ -5,7 +5,8 @@
 # If user inputs something that is not a country from the list of countries, then have a way to replace their input with a random name from the country list
 
 import random
-countries = ["Macedonia", "macedonia" "Madagascar", "madagascar", "malawi","Malawi", "Malaysia", "malaysia", "Maldives", "maldives", "the Maldives", "the maldives", "Mali", "mali", "Malta", "malta", "Marshall Islands", "marshall islands", "the Marshall Islands", "the marshall islands", "Mauritania", "mauritania", "Mauritius", "mauritius", "Mexico", "mexico", "Micronesia", "micronesia", "the Federated States of Micronesia", "the federated states of micronesia", "Moldova", "moldova", "Monaco", "monaco", "Mongolia", "mongolia", "Montenegro", "montenegro", "Morocco", "morocco", "Myanmar", "myanmar", "Mozambique", "mozambique"]
+
+countries = ["Macedonia", "macedonia", "Madagascar", "madagascar", "malawi","Malawi", "Malaysia", "malaysia", "Maldives", "maldives", "the Maldives", "the maldives", "Mali", "mali", "Malta", "malta", "Marshall Islands", "marshall islands", "the Marshall Islands", "the marshall islands", "Mauritania", "mauritania", "Mauritius", "mauritius", "Mexico", "mexico", "Micronesia", "micronesia", "the Federated States of Micronesia", "the federated states of micronesia", "Moldova", "moldova", "Monaco", "monaco", "Mongolia", "mongolia", "Montenegro", "montenegro", "Morocco", "morocco", "Myanmar", "myanmar", "Mozambique", "mozambique"]
 climate = {0 : "polar", 1 : "mediterranean", 2 : "temperate", 3 : "arid", 4 : "tundra", 5 : "swampy", 6 : "desert" , 7 : "tropical"}
 food = ["buttered popcorn", "potato chips", "paella", "chicken and rice", "poutine", "tacos", "toast with marmite", "stinky tofu", "marzipan", "ketchup", "french toast", "papaya", "plantain", "chicken parm", "hummus", "maple syrup", "bananas"]
 
@@ -42,7 +43,7 @@ pluralnoun2 = input("...and one more plural noun! : ")
 nouns = [pluralnoun, pluralnoun1, pluralnoun2]
 random.shuffle(nouns)
 
-finalclimate = input("Pick a number 0 - 9 : ")
+finalclimate = input("Pick a number 0 - 7 : ")
 
 print("Okay! I think we're ready.")
 

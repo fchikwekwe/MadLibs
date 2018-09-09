@@ -43,6 +43,20 @@ pluralnoun2 = input("...and one more plural noun! : ")
 nouns = [pluralnoun, pluralnoun1, pluralnoun2]
 random.shuffle(nouns)
 
+# def climate(prompt):
+#     while True:
+#         try:
+#             climate = int(input(prompt))
+#         except ValueError:
+#             print("Please make sure your selection is a number.")
+#             continue
+#         else:
+#             break
+#         return climate
+#
+# finalclimate = climate("Pick a number 0 - 7 : ")
+# print(finalclimate)
+
 finalclimate = input("Pick a number 0 - 7 : ")
 
 print("Okay! I think we're ready.")
